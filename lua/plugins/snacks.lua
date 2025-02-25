@@ -14,7 +14,7 @@ return {
       statuscolumn = { enabled = false },
       words = { enabled = true },
       bufdelete = { enabled = true },
-      image = { enabled = true },
+      image = { enabled = false },
       terminal = {
         win = {
           keys = {
