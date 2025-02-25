@@ -25,10 +25,3 @@ require('lazy').setup {
   install = { colorscheme = { 'habamax' } },
   checker = { enabled = true },
 }
-
-vim.o.foldmethod = 'expr'
-vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
-vim.opt.foldtext = ''
-vim.opt.foldlevelstart = 99
-
-vim.opt.pumblend = 10
